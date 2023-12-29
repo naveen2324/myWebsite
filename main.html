@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css">
+        <script src="https://kit.fontawesome.com/a587e06c84.js" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+        <title>About Me</title>
+    </head>
+
+    <body>
+        <div class="header">
+            <h1 class="title">NAVEEN MUTHUKUMAR</h1>
+            <div class="gap"></div>
+            <button id="button1" class="header_buttons">About Me</button>
+			<button id="button2" class="header_buttons">Experience</button>
+			<button id="button3" class="header_buttons">Projects</button>
+        </div>
+
+        <div id="body_one">
+            <div id="round_container">
+                <p>ABOUT ME</p>
+                <img id="personal_image" src="assets/personal_photo.jpg" />
+                <p id="description">I am Naveen Muthukumar, a passionate software engineer with a focus on creating impactful solutions. I recently graduated with a Masters in Computer Science at the University of Illinois at Urbana-Champaign, and have a strong foundation in diverse technologies.
+                    <br><br>My experience includes internships at Oracle and Caterpillar Inc., where I developed software solutions and conducted extensive testing.</p>
+            </div>
+        </div>
+
+        <div id="body_two">
+            <h1 id="body_two_title">WORK EXPERIENCE</h1>
+            <div id="work_container">
+                <div id="work">
+                    <div id="work_1">
+                        <img id="work_1_image" src="assets/oracle_logo.png" />
+                        <h2>Software Engineer Intern</h2>
+                        <h3>May 2023 - Aug 2023</h3>
+                        <br><p>
+                            Developed a Java application that uses a two-phase commit protocol to interface with Oracle Content Management (OCM), which runs on Opensearch, a NoSQL database:
+                            <br><br>• Efficiently update documents and their corresponding denormalized subdocuments as one cohesive unit within OCM.
+                            <br><br>• Implemented a thread utilizing parallel programming techniques that periodically monitors if transactions have stalled
+                            or crashed.
+                            <br><br>• Automatically perform recovery/rollback of stalled or failed OCM transactions and perform server restart.
+                        </p>
+                    </div>
+                    <div id="work_2">
+                        <img id="work_2_image" src="assets/caterpillar_logo.jpg" />
+                        <h2>Software Engineer Intern</h2>
+                        <h3>Jan 2022 - June 2022</h3>
+                        <br><p>
+                            • Performed concurrency testing, stress testing, load testing, and functional testing using JMeter on various web applications to determine their load requirements and overall performance.
+                            <br><br>• Gathered data using JMeter to further facilitate continuity services for the Helios cloud data platform where various enterprise, dealer, and customer data is stored.
+                        </p>
+                    </div>
+                    <div id="work_3">
+                        <img id="work_3_image" src="assets/ciar_solutions.jpg" />
+                        <h2>Software Engineer Intern</h2>
+                        <h3>Dec 2020 - May 2021</h3>
+                        <br><p>
+                            • Designed marketing material as a graphical designer using Adobe Photoshop.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+        <div id="body_three">
+            <h1>MY PROJECTS</h1>
+            <div id="projects_container">
+                <div id="project1_container">
+                    <div id="project1_title">
+                        <p>Pokédex React Application (React)</p>
+                        <br><i class="fa-brands fa-react fa-2xl"></i>
+                    </div>
+                    <div id="project1_content"><p>• Developed a React application that uses Axios to interact with the Pokémon REST API (PokéAPI), allowing users to explore and search for Pokémon-related information.
+<br>• Used React Router to seamlessly navigate across distinct views, such as a search view, a gallery view, and a detailed view for each Pokémon.
+<br>• Implemented state management using React Hooks, such as useState and useEffect, to manage and update the application's state, allowing dynamic updates in real time for a responsive and interactive user experience.</p></div>
+                </div>
+                <div id="project2_container">
+                    <div id="project2_title">
+                        <p>Dense Video Caption Generation Using a Masked Transformer Model (Python)</p>
+                        <br><i class="fa-solid fa-video fa-2xl"></i>
+                    </div>
+                    <div id="project2_content"><p>• Gathered, pre-processed, extracted audio and video frames, and obtained featuremaps of each frame with a CNN model using over 1000 publicly available YouTube videos.
+<br>• Trained an encoder-decoder transformer ML model to analyze and generate captions for input videos automatically.
+<br>• Created an interface to accept videos as input and used the trained model to generate captions for each event taking place in the video along with timestamps.</p></div>
+                </div>
+                <div id="project3_container">
+                    <div id="project3_title">
+                        <p>Identification of Depression using Twitter Analytics (Python)</p>
+                        <br><i class="fa-brands fa-twitter fa-2xl"></i>
+                    </div>
+                    <div id="project3_content"><p>• Trained various ML models such as Naïve Bayes, Logistic Regression, and Decision Tree on publicly available Twitter datasets to be able to determine whether a user’s Tweets indicate depression.
+<br>• Scraped, gathered, pre-processed, and tested the Tweets ofspecific Twitter users using the trained ML models to check whether their activity shows signs of depression.
+<br>• Compared the various ML models to determine the most suitable algorithm to test Tweets.</p></div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <h1>CONTACT ME</h1>
+            <a href="https://www.linkedin.com/in/naveen-muthukumar/"><i class="fa-brands fa-linkedin-in fa-xl"></i></a>
+            <a href="mailto:naveen.muthukumar18@gmail.com"><i class="fa-solid fa-envelope fa-xl"></i></a>
+        </div>
+    </body>
+</html>
